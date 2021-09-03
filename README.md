@@ -4,7 +4,7 @@ Extract geo-data from wikipedia dumps found at https://en.wikipedia.org/wiki/Wik
 Requires NodeJS, Google Earth
 
 ## How to use:
-1. Extract the xml file into the node script directory
+1. Download and extract the Wikipedia dump XML file into the app.js directory
 2. In the script, change the fileName variable to the xml document name
 3. Run the script, should output "wiki_earth.csv" (Around 94MB ~enwiki-20210801-pages-articles-multistream.xml) and "wiki_rejects.csv" (you can use that list to fix/add geodata)
 4. Zoom into a portion of the map BEFORE dragging the wiki_earth.csv file into Google Earth - currently there is 1,046,829 csv lines/wikipedia pages which would be impossible for Google Earth to display simultaneously and well above the recommended 2500 placemark limit (There are website like https://copernix.io that allow for all data to be loaded as you scroll around the map, but this lacks Google Earth capabilities that some people may want)
