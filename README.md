@@ -13,5 +13,5 @@ Requires NodeJS, Google Earth
 ## Limitations
 * Can't filter user errors from Wikipedia pages (fuzzy filtering 54,000,000 pages would take too long and probably generate lots of errors)
 * Has to take place within a data stream because of the XML's size limitations
-* Real pages may be rejected for various reasons, but looking through the rejects, it's very minimal
+* Real pages may be rejected for various reasons, rejects are presented in a seperate file for further parsing
 * Entries with multiple "{{coord|" will ONLY use the first reference as the actual coordinates
